@@ -1,0 +1,22 @@
+/* Minimalistic input style */
+.minimal-input {
+    width: 300px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .minimal-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .minimal-input::placeholder {
+    color: #aaa;
+  }
