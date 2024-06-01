@@ -35,6 +35,9 @@ function App() {
       setsearchedNote(newNoteList)
     }
   }, [searchText])
+  useEffect(() => {
+    console.log(noteList)
+  }, [noteList])
 
   return (
     <>
